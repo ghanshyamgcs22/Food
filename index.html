@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Food service</title>
+    <link rel="stylesheet" media="screen and (max-width:1729px)" href="phone.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="
+    
+    link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">">
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <div id="logo">
+            <img src="rr.jpg" alt="Shyam food service">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="Services.html" target="_blank">Services</a></li>
+            <li class="item"><a href="contactus.html" target="_blank">Contact us</a></li>
+            <li class="item"><a href="aboutus.html" target="_blank">About us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">
+
+            Welcome to Shyam online meal
+        </h1>
+        <p>Lorem ipsum dolor sit amet consequuntur veniam deleniti officia iure quos sed nostrum voluptas in tenetur
+            exercitationem suscipit aperiam corporis assumenda, dolores aspernatur.</p>
+        
+
+            <button id="orderBtn" class="btn" >Order Now</button>
+        
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center"> Our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pizaa.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro alias veritatis,
+                    aspernatur nobis iure ratione quibusdam sapiente repudiandae accusantium mollitia est debitis id
+                    necessitatibus minus quos eligendi sit sint possimus! Minima sit non obcaecati.
+                </p>
+            </div>
+            <div class="box">
+                <img src="foodlogo.jpeg" alt="">
+                <h2 class="h-secondary center">Mass odering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro alias veritatis,
+                    aspernatur nobis iure ratione quibusdam sapiente repudiandae accusantium mollitia est debitis id
+                    necessitatibus minus quos eligendi sit sint possimus! Minima sit non obcaecati.
+                </p>
+            </div>
+            <div class="box">
+                <img src="boylogo.jpeg" alt="">
+                <h2 class="h-secondary center">Odering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro alias veritatis,
+                    aspernatur nobis iure ratione quibusdam sapiente repudiandae accusantium mollitia est debitis id
+                    necessitatibus minus quos eligendi sit sint possimus! Minima sit non obcaecati.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client">
+        <h1 class="h-primary center" id="ourclient">Our client</h1>
+        <h1 class="h-primary center " id="clientcontact">
+            <!-- Our client -->
+        </h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="Swiggy.png" alt="">
+            </div>
+            <div class="client-items">
+                <img src="zomato.jpeg" alt="">
+            </div>
+            <div class="client-items">
+                <img src="dominos.jpeg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center " id="cus">Contact us</h1>
+
+        <!-- <h1 class="h-primary center">Contact us</h1> -->
+        <div id="contact-box">
+            <!-- <form action="noaction.php"> -->
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <br>
+                    <input type="text" name="" id="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="">Ph-no.</label>
+                    <br>
+                    <input type="number" name="" id="" placeholder="Enter your Ph-no.">
+                </div>
+                <div class="form-group">
+                    <label for="">Location</label>
+                    <br>
+                    <input type="text" name="" id="" placeholder="Enter your Location">
+                </div>
+                <div class="form-group">
+                    <label for="">Pincode</label>
+                    <br>
+                    <input type="number" name="" id="" placeholder="Enter yourpincode">
+                   
+                </div>
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <br>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button id="sub">Submit</button>
+                
+                
+              </form>
+        </div>
+
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com.All rights are reserved
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("orderBtn").addEventListener("click", function() {
+            // Add your desired functionality here
+            window.location.href = 'orderDirect.html';
+            alert("Confirm Your Order"); // Replace this with your actual functionality
+        });
+        document.getElementById("sub").addEventListener("click", function() {
+            window.location.href = "submit.html"; // Replace with the URL of your thank you page
+        });
+    </script>
+    
+</body>
+
+</html>
